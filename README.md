@@ -4,4 +4,4 @@
 
 https://kseveru.github.io/DSGN/
 
-Макет: 
+Макет: Michele Cialone (http://theuncreativelab.com/)
