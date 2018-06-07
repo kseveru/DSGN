@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DSGN | Project Fondue</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="nojs">
+
+<!-- ===== SVG sprite ===================== -->
+
+  <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+    <symbol viewBox="0 0 24 21" id="icon-like" aria-labelledby="icon-like" role="img">
+      <title>Like it!</title>
+      <path d="M22.207 10.331l-10.226 10.7-10.225-10.7a6.1 6.1 0 0 1 0-8.562 5.956 5.956 0 0 1 8.48 0l1.745 2.14 1.746-2.14a5.956 5.956 0 0 1 8.48 0 6.1 6.1 0 0 1 0 8.562zm-6.489-8.212l-3.741 3.3-2.741-3.3a4.77 4.77 0 0 0-7.2 1c-1.13 1.712-1.436 3.84 0 5.3l9.941 10.612L21.918 8.42a3.8 3.8 0 0 0 0-5.3c-1.436-1.469-4.764-2.469-6.2-1.004z" fill-rule="evenodd"/>
+    </symbol>
+    <symbol viewBox="0 0 26 61" id="icon-arrow-button" aria-labelledby="icon-arrow-button" role="presentation">
+      <title>Arrow button</title>
+      <path fill-rule="evenodd" d="M25.234,60.313 L24.766,60.688 L0.766,30.687 L1.000,30.500 L0.766,30.313 L24.766,0.313 L25.234,0.687 L1.384,30.500 L25.234,60.313 Z" fill="rgb(19, 19, 19)"/>
+    </symbol>
+
+    <!-- ===== SOCIAL ===================== -->
+
+    <symbol viewBox="0 0 96 96" id="icon-facebook" aria-labelledby="icon-facebook" role="img">
+      <title>Facebook</title>
+      <path d="M73.099,15.973l-9.058,0.004c-7.102,0-8.477,3.375-8.477,8.328v10.921h16.938l-0.006,17.106H55.564v43.895H37.897V52.332 h-14.77V35.226h14.77V22.612C37.897,7.972,46.84,0,59.9,0L73.1,0.021L73.099,15.973L73.099,15.973z"/>
+    </symbol>
+    <symbol viewBox="0 0 97 97" id="icon-twitter" aria-labelledby="icon-twitter" role="img">
+      <title>Twitter</title>
+      <path d="M97.523,18.526c-0.14-0.165-0.371-0.221-0.568-0.131c-2.919,1.295-5.99,2.226-9.153,2.776 c3.358-2.526,5.86-6.024,7.143-10.035c0.062-0.192-0.002-0.402-0.159-0.527c-0.158-0.125-0.377-0.141-0.55-0.038 c-3.782,2.243-7.878,3.824-12.18,4.701c-3.812-3.956-9.135-6.219-14.644-6.219c-11.204,0-20.318,9.114-20.318,20.317 c0,1.355,0.131,2.697,0.391,4c-15.518-0.958-30.028-8.408-39.894-20.509c-0.101-0.124-0.254-0.193-0.414-0.177 c-0.159,0.012-0.301,0.102-0.381,0.239c-1.8,3.088-2.751,6.621-2.751,10.215c0,6.229,2.83,12.053,7.649,15.896 c-2.481-0.298-4.904-1.079-7.089-2.292c-0.147-0.083-0.33-0.082-0.477,0.003c-0.147,0.084-0.24,0.24-0.244,0.41l-0.002,0.26 c0,8.946,5.895,16.801,14.282,19.409c-2.209,0.356-4.501,0.332-6.754-0.098c-0.166-0.031-0.34,0.026-0.454,0.154 c-0.113,0.128-0.151,0.307-0.099,0.469c2.515,7.85,9.503,13.355,17.637,14.041c-6.785,4.971-14.805,7.59-23.279,7.59 c-1.561,0-3.133-0.093-4.673-0.274c-0.22-0.025-0.438,0.106-0.514,0.317c-0.076,0.213,0.005,0.451,0.195,0.572 c9.17,5.881,19.773,8.988,30.664,8.988c35.625,0,56.913-28.938,56.913-56.914c0-0.779-0.015-1.554-0.046-2.327 c3.843-2.811,7.142-6.252,9.802-10.235C97.675,18.929,97.662,18.692,97.523,18.526z"/>
+    </symbol>
+    <symbol viewBox="0 0 93 93" id="icon-linkedin" aria-labelledby="icon-linkedin" role="img">
+      <title>Linkedin</title>
+      <path d="M11.185,0.08C5.004,0.08,0.001,5.092,0,11.259c0,6.173,5.003,11.184,11.186,11.184c6.166,0,11.176-5.011,11.176-11.184
+      C22.362,5.091,17.351,0.08,11.185,0.08z"/><rect x="1.538" y="30.926" width="19.287" height="62.054"/><path d="M69.925,29.383c-9.382,0-15.673,5.144-18.248,10.022h-0.258v-8.479H32.921H32.92v62.053h19.27V62.281
+      c0-8.093,1.541-15.932,11.575-15.932c9.89,0,10.022,9.256,10.022,16.451v30.178H93.06V58.942
+      C93.06,42.235,89.455,29.383,69.925,29.383z"/>
+    </symbol>
+    <symbol viewBox="0 0 96 96" id="icon-google" aria-labelledby="icon-google+" role="img">
+      <title>Google plus</title>
+      <path d="M50.91,55.189l-4.533-3.522c-1.38-1.144-3.27-2.656-3.27-5.422c0-2.778,1.889-4.544,3.527-6.18 c5.279-4.157,10.557-8.581,10.557-17.903c0-9.586-6.031-14.629-8.923-17.022h7.795L64.244,0H39.459 C32.658,0,22.856,1.608,15.68,7.533c-5.408,4.666-8.046,11.099-8.046,16.892c0,9.831,7.548,19.798,20.88,19.798 c1.259,0,2.636-0.124,4.022-0.252c-0.623,1.515-1.252,2.777-1.252,4.917c0,3.905,2.006,6.299,3.774,8.567 c-5.663,0.39-16.237,1.018-24.033,5.809c-7.424,4.415-9.684,10.84-9.684,15.377c0,9.334,8.8,18.028,27.045,18.028 c21.636,0,33.089-11.971,33.089-23.823C61.477,64.139,56.447,59.854,50.91,55.189z M34.431,40.691 c-10.824,0-15.727-13.992-15.727-22.434c0-3.288,0.623-6.682,2.763-9.333C23.486,6.4,27,4.762,30.281,4.762 c10.434,0,15.846,14.118,15.846,23.197c0,2.271-0.251,6.296-3.144,9.207C40.96,39.187,37.574,40.691,34.431,40.691z M34.555,91.387c-13.46,0-22.139-6.438-22.139-15.392c0-8.949,8.048-11.978,10.816-12.979c5.281-1.777,12.076-2.024,13.21-2.024 c1.258,0,1.887,0,2.889,0.126c9.568,6.81,13.721,10.203,13.721,16.65C53.053,85.573,46.635,91.387,34.555,91.387z"/><polygon points="82.679,40.499 82.679,27.894 76.455,27.894 76.455,40.499 63.869,40.499 63.869,46.793 76.455,46.793 76.455,59.477 82.679,59.477 82.679,46.793 95.328,46.793 95.328,40.499 "/>
+    </symbol>
+    <symbol viewBox="0 0 511 511" id="icon-email" aria-labelledby="icon-email" role="img">
+      <title>Email</title>
+      <path d="M49.106,178.729c6.472,4.567,25.981,18.131,58.528,40.685c32.548,22.554,57.482,39.92,74.803,52.099 c1.903,1.335,5.946,4.237,12.131,8.71c6.186,4.476,11.326,8.093,15.416,10.852c4.093,2.758,9.041,5.852,14.849,9.277 c5.806,3.422,11.279,5.996,16.418,7.7c5.14,1.718,9.898,2.569,14.275,2.569h0.287h0.288c4.377,0,9.137-0.852,14.277-2.569 c5.137-1.704,10.615-4.281,16.416-7.7c5.804-3.429,10.752-6.52,14.845-9.277c4.093-2.759,9.229-6.376,15.417-10.852 c6.184-4.477,10.232-7.375,12.135-8.71c17.508-12.179,62.051-43.11,133.615-92.79c13.894-9.703,25.502-21.411,34.827-35.116 c9.332-13.699,13.993-28.07,13.993-43.105c0-12.564-4.523-23.319-13.565-32.264c-9.041-8.947-19.749-13.418-32.117-13.418H45.679 c-14.655,0-25.933,4.948-33.832,14.844C3.949,79.562,0,91.934,0,106.779c0,11.991,5.236,24.985,15.703,38.974 C26.169,159.743,37.307,170.736,49.106,178.729z"/><path d="M483.072,209.275c-62.424,42.251-109.824,75.087-142.177,98.501c-10.849,7.991-19.65,14.229-26.409,18.699 c-6.759,4.473-15.748,9.041-26.98,13.702c-11.228,4.668-21.692,6.995-31.401,6.995h-0.291h-0.287 c-9.707,0-20.177-2.327-31.405-6.995c-11.228-4.661-20.223-9.229-26.98-13.702c-6.755-4.47-15.559-10.708-26.407-18.699 c-25.697-18.842-72.995-51.68-141.896-98.501C17.987,202.047,8.375,193.762,0,184.437v226.685c0,12.57,4.471,23.319,13.418,32.265 c8.945,8.949,19.701,13.422,32.264,13.422h420.266c12.56,0,23.315-4.473,32.261-13.422c8.949-8.949,13.418-19.694,13.418-32.265 V184.437C503.441,193.569,493.927,201.854,483.072,209.275z"/>
+    </symbol>
+  </svg>
+
+
+<!-- ===== HEADER ========================= -->
+
+  <header class="page-header">
+    <div class="page-header__column">
+      <a class="logo">
+        <img class="logo__img" src="img/logo.png" width="162" height="207" alt="logo DSGN">
+        <div class="logo__text">Associates<br> studio<br> design</div>
+      </a>
+
+      <ul class="page-header__social social social--page-header list-reset">
+        <li class="social__item">
+          <a class="social__link" href="#" title="Our facebook">
+            <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-facebook"></use></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#" title="Our twitter">
+            <svg class="social__icon" width="24" height="24"><use xlink:href="#icon-twitter"></use></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#" title="Our linkedin">
+            <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-linkedin"></use></svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#" title="Our google+">
+            <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-google"></use></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="page-header__column-block">
+      <nav class="page-header__nav site-nav">
+        <button class="site-nav__toggle btn-toggle btn-toggle--closed btn-reset" type="button">
+          <span class="hidden">Open/close menu</span>
+        </button>
+        <ul class="site-nav__list list-reset">
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html">Home</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link site-nav__link--active" href="#projects">Projects</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html#studio">Studio</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html#news">News</a>
+          </li>
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="page-header__address address">
+        90802 California<br>
+        Long beach<br>
+        PO Box 68789<br>
+        300 East Ocean<br>
+        Boulevard
+        <a class="address__link" href="tel:+6493456758">+64 9 345 6758</a>
+        <a class="address__link" href="mailto:info@dsgn-studio.com">info@dsgn-studio.com</a>
+      </address>
+    </div>
+  </header>
+
+
+<!-- ===== CONTENT ======================== -->
+
+  <main class="page-content">
+    <h1 class="hidden">Project Fondue</h1>
+
+    <section class="page-section projects">
+      <article class="project project--full project--full-fondue">
+        <div class="project__inner">
+          <h2 class="project__title">Fondue</h2>
+          <dl class="project__info">
+            <dt class="project__option">Project Assistant:</dt>
+            <dd class="project__value">Francesco Dompieri</dd>
+            <dt class="project__option">Material:</dt>
+            <dd class="project__value">Glass and Metal</dd>
+            <dt class="project__option">Typology:</dt>
+            <dd class="project__value">Suspension lamp</dd>
+            <dt class="project__option">Client:</dt>
+            <dd class="project__value">David Design</dd>
+            <dt class="project__option">Year:</dt>
+            <dd class="project__value">2014</dd>
+          </dl>
+          <div class="project__desc">
+            <p class="project__text">
+              Merging different traditions – the South European and the North European – in the field of household suspended lights is the starting point of Fondue, a lamp designed by Luca Nichetto for the Swedish David Design. The inspiration comes from the observation of pot bellied traditional fondue cauldrons, which were kept suspended above a heat source for the cheese to slowly melt. Similarly, the pot bellied glass diffuser is suspended, supported by a slender metal frame enclosing the light source.
+            </p>
+            <p class="project__text">
+              One of Fondue’s peculiarities is the solution designed for the output of the power cable, which is generally concealed or made less evident. Instead, here it becomes a feature of the lamp, located in its lower part, which allows the power source to be released from the fixing point in the ceiling. This makes Fondue easily adaptable to various architectural situations.
+            </p>
+          </div>
+          <figure class="project__gallery gallery">
+            <figcaption class="gallery__nav">
+              <button class="gallery__arrow btn-arrow btn-arrow--prev btn-reset" type="button">
+                <span class="hidden">previous picture</span>
+                <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
+              </button>
+              <a class="gallery__item gallery__item--active">
+                <img class="gallery__thumb" src="img/project-fondue-thumb-1.jpg" width="100" height="100" alt="lamp fragment-1">
+              </a>
+              <a class="gallery__item" href="#" title="zoom">
+                <img class="gallery__thumb" src="img/project-fondue-thumb-2.jpg" width="100" height="100" alt="lamp fragment-2">
+              </a>
+              <button class="gallery__arrow btn-arrow btn-arrow--next btn-reset" type="button">
+                <span class="hidden">next picture</span>
+                <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
+              </button>
+            </figcaption>
+            <img class="gallery__img" src="img/project-fondue.jpg" width="245" height="521" alt="Lamp Fondue">
+          </figure>
+          <ul class="social social--share list-reset">
+            <li class="social__item">
+              <a class="social__link" href="#" title="Share on facebook">
+                <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-facebook"></use></svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" title="Share on twitter">
+                <svg class="social__icon" width="24" height="24"><use xlink:href="#icon-twitter"></use></svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" title="Share on google+">
+                <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-google"></use></svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#" title="Share on email">
+                <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-email"></use></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+
+<!-- ===== FOOTER ========================= -->
+
+  <footer class="page-footer">
+    <div class="page-footer__map">
+      <picture class="page-footer__map-img">
+        <source media="(min-width:1000px)" srcset="img/map-750px.jpg">
+        <img src="img/map-750px.jpg" alt="city map with our address">
+      </picture>
+      <iframe src="https://yandex.ru/map-widget/v1/-/CBqXqDsMpD" width="752" height="644" allowfullscreen="true"></iframe>
+    </div>
+
+    <div class="page-footer__inner" id="contact">
+      <address class="page-footer__address address">
+        90802 California<br>
+        Long beach<br>
+        PO Box 68789<br>
+        300 East Ocean<br>
+        Boulevard
+        <a class="address__link" href="tel:+6493456758">+64 9 345 6758</a>
+        <a class="address__link" href="mailto:info@dsgn-studio.com">info@dsgn-studio.com</a>
+      </address>
+
+      <div class="page-footer__column">
+        <a class="logo">
+          <img class="logo__img" src="img/logo.png" width="162" height="207" alt="logo DSGN">
+          <div class="logo__text">Associates<br> studio<br> design</div>
+        </a>
+
+        <ul class="page-header__social social social--page-header list-reset">
+          <li class="social__item">
+            <a class="social__link" href="#" title="Our facebook">
+              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-facebook"></use></svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" title="Our twitter">
+              <svg class="social__icon" width="24" height="24"><use xlink:href="#icon-twitter"></use></svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" title="Our linkedin">
+              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-linkedin"></use></svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" title="Our google+">
+              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-google"></use></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <p class="page-footer__copyright">
+        &copy; 2014 DSGN. All rights reserved - Designed by <a class="page-footer__link" href="http://theuncreativelab.com/">theuncreativelab.com</a>
+      </p>
+    </div>
+  </footer>
+
+
+<script src="js/site-nav.js"></script>
+</body>
+</html>

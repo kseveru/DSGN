@@ -1,0 +1,40 @@
+{
+  "name": "dsgn",
+  "version": "1.0.0",
+  "description": "Резиновая вёрстка",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kseveru/dsgn.git"
+  },
+  "author": "kseveru <kseveru@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kseveru/dsgn/issues"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 11"
+  ],
+  "homepage": "https://github.com/kseveru/dsgn#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.4.1",
+    "browser-sync": "^2.24.1",
+    "del": "^3.0.0",
+    "gift": "^0.10.2",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "npm": "^6.0.0",
+    "pump": "^3.0.0"
+  }
+}
