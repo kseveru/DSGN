@@ -1,7 +1,7 @@
-# bebroccoli
+# DSGN
 
-Резиновая вёрстка (landing page)
+Резиновая вёрстка (1 страница)
 
-https://kseveru.github.io/bebroccoli/
+https://kseveru.github.io/DSGN/
 
-Макет: Valerie Kaliuta (https://www.behance.net/Nafan1ya)
+Макет: Michele Cialone (http://theuncreativelab.com/)
