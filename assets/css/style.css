@@ -280,14 +280,14 @@ img {
 /* Page-header
 ============================================================ */
 
-.page-header__column {
+.page-header__column-left {
   padding: 30px;
 
   background: url("../img/page-header-back.jpg") 100% 50% no-repeat;
   background-size: contain;
 }
 
-.page-header__column-block {
+.page-header__column-right {
   padding: 30px;
 
   color: #ffffff;
@@ -433,13 +433,13 @@ img {
   text-decoration: none;
 }
 
-.site-nav__item:first-child .site-nav__link {
+/*.site-nav__item:first-child .site-nav__link {
   padding-left: 50px;
 }
 
 .site-nav__item:last-child .site-nav__link {
   padding-right: 50px;
-}
+}*/
 
 .site-nav__link:hover,
 .site-nav__link:focus,
@@ -565,6 +565,8 @@ img {
 ============================================================ */
 
 .project {
+  position: relative;
+
   min-height: 250px;
 
   font-weight: 300;
@@ -606,15 +608,10 @@ img {
 }
 
 .project__inner {
-  position: relative;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 30px;
-
-  display: flex;
-  flex-direction: column;
 }
 
 .project__close {
@@ -698,8 +695,8 @@ img {
 
 .project__img {
   /*position: absolute;*/
-display: block;
-margin: auto;
+  display: block;
+  margin: auto;
 }
 .project--louis .project__img {
   margin-right: 0;
@@ -846,7 +843,7 @@ margin: auto;
 ============================================================ */
 
 .staffer {
-  /*max-width: 270px;*/
+  max-width: 270px;
 }
 
 .staffer__img-wrap {
@@ -859,9 +856,17 @@ margin: auto;
   background-image: radial-gradient(20% 40% at 162px 50%, #a5a5a5, transparent),
                     linear-gradient(90deg, #a0a0a0 162px, #b6b6b6);
 }
-
+/*
+.staffer--urquiola .staffer__img-wrap {
+  background-image: linear-gradient(0deg, #dadada, #e4e4e4 95%);
+}
+*/
 .staffer__img {
   display: block;
+}
+
+.staffer--urquiola .staffer__img {
+  margin-left: auto;
 }
 
 .staffer__name {
@@ -990,7 +995,7 @@ margin: auto;
 .page-footer__map iframe {
   position: relative;
 
-  max-width: 100%;
+  width: 100%;
 
   border: none;
 }
