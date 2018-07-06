@@ -6,6 +6,7 @@
   <title>DSGN</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style-tablet.css">
+  <link rel="stylesheet" href="css/style-desktop.css">
 </head>
 <body class="nojs">
 
@@ -38,7 +39,7 @@
       c0-8.093,1.541-15.932,11.575-15.932c9.89,0,10.022,9.256,10.022,16.451v30.178H93.06V58.942
       C93.06,42.235,89.455,29.383,69.925,29.383z"/>
     </symbol>
-    <symbol viewBox="0 0 96 96" id="icon-google" aria-labelledby="icon-google+" role="img">
+    <symbol viewBox="0 0 96 96" id="icon-google" aria-labelledby="icon-google" role="img">
       <title>Google plus</title>
       <path d="M50.91,55.189l-4.533-3.522c-1.38-1.144-3.27-2.656-3.27-5.422c0-2.778,1.889-4.544,3.527-6.18 c5.279-4.157,10.557-8.581,10.557-17.903c0-9.586-6.031-14.629-8.923-17.022h7.795L64.244,0H39.459 C32.658,0,22.856,1.608,15.68,7.533c-5.408,4.666-8.046,11.099-8.046,16.892c0,9.831,7.548,19.798,20.88,19.798 c1.259,0,2.636-0.124,4.022-0.252c-0.623,1.515-1.252,2.777-1.252,4.917c0,3.905,2.006,6.299,3.774,8.567 c-5.663,0.39-16.237,1.018-24.033,5.809c-7.424,4.415-9.684,10.84-9.684,15.377c0,9.334,8.8,18.028,27.045,18.028 c21.636,0,33.089-11.971,33.089-23.823C61.477,64.139,56.447,59.854,50.91,55.189z M34.431,40.691 c-10.824,0-15.727-13.992-15.727-22.434c0-3.288,0.623-6.682,2.763-9.333C23.486,6.4,27,4.762,30.281,4.762 c10.434,0,15.846,14.118,15.846,23.197c0,2.271-0.251,6.296-3.144,9.207C40.96,39.187,37.574,40.691,34.431,40.691z M34.555,91.387c-13.46,0-22.139-6.438-22.139-15.392c0-8.949,8.048-11.978,10.816-12.979c5.281-1.777,12.076-2.024,13.21-2.024 c1.258,0,1.887,0,2.889,0.126c9.568,6.81,13.721,10.203,13.721,16.65C53.053,85.573,46.635,91.387,34.555,91.387z"/><polygon points="82.679,40.499 82.679,27.894 76.455,27.894 76.455,40.499 63.869,40.499 63.869,46.793 76.455,46.793 76.455,59.477 82.679,59.477 82.679,46.793 95.328,46.793 95.328,40.499 "/>
     </symbol>
@@ -147,170 +148,183 @@
       </header>
 
       <article class="project project--fondue">
-        <div class="project__inner">
+        <div class="project__content">
           <h3 class="project__title">Fondue</h3>
-          <dl class="project__info">
-            <dt class="project__option">Project Assistant:</dt>
-            <dd class="project__value">Francesco Dompieri</dd>
-            <dt class="project__option">Material:</dt>
-            <dd class="project__value">Glass and Metal</dd>
-            <dt class="project__option">Typology:</dt>
-            <dd class="project__value">Suspension lamp</dd>
-            <dt class="project__option">Client:</dt>
-            <dd class="project__value">David Design</dd>
-            <dt class="project__option">Year:</dt>
-            <dd class="project__value">2014</dd>
-          </dl>
-          <a class="project__more project__more--fondue" href="project-fondue.html">view project</a>
-          <button class="project__like like btn-reset" type="button">
-            <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
-            <span class="like__value">+ 200</span>
-          </button>
+          <div class="project__inner">
+            <dl class="project__info">
+              <dt class="project__option">Project Assistant:</dt>
+              <dd class="project__value">Francesco Dompieri</dd>
+              <dt class="project__option">Material:</dt>
+              <dd class="project__value">Glass and Metal</dd>
+              <dt class="project__option">Typology:</dt>
+              <dd class="project__value">Suspension lamp</dd>
+              <dt class="project__option">Client:</dt>
+              <dd class="project__value">David Design</dd>
+              <dt class="project__option">Year:</dt>
+              <dd class="project__value">2014</dd>
+            </dl>
+            <a class="project__more project__more--fondue" href="project-fondue.html">view project</a>
+            <button class="project__like like btn-reset" type="button">
+              <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
+              <span class="like__value">+ 200</span>
+            </button>
+          </div>
         </div>
-        <img class="project__img" src="img/project-fondue.jpg" width="245" height="521" alt="Lamp Fondue">
+        <div class="project__img">
+          <img src="img/project-fondue.jpg" width="245" height="521" alt="Lamp Fondue">
+        </div>
       </article>
 
       <!-- ===== POPUP ========================== -->
 
       <article class="project project--closed project--popup project--full project--full-fondue">
-        <div class="project__inner">
-          <button class="project__close btn-close btn-reset" type="button">
-            <span class="hidden">Close project</span>
-          </button>
-          <h1 class="project__title">Fondue</h1>
-          <dl class="project__info">
-            <dt class="project__option">Project Assistant:</dt>
-            <dd class="project__value">Francesco Dompieri</dd>
-            <dt class="project__option">Material:</dt>
-            <dd class="project__value">Glass and Metal</dd>
-            <dt class="project__option">Typology:</dt>
-            <dd class="project__value">Suspension lamp</dd>
-            <dt class="project__option">Client:</dt>
-            <dd class="project__value">David Design</dd>
-            <dt class="project__option">Year:</dt>
-            <dd class="project__value">2014</dd>
-          </dl>
-          <div class="project__desc">
-            <p class="project__text">
-              Merging different traditions – the South European and the North European – in the field of household suspended lights is the starting point of Fondue, a lamp designed by Luca Nichetto for the Swedish David Design. The inspiration comes from the observation of pot bellied traditional fondue cauldrons, which were kept suspended above a heat source for the cheese to slowly melt. Similarly, the pot bellied glass diffuser is suspended, supported by a slender metal frame enclosing the light source.
-            </p>
-            <p class="project__text">
-              One of Fondue’s peculiarities is the solution designed for the output of the power cable, which is generally concealed or made less evident. Instead, here it becomes a feature of the lamp, located in its lower part, which allows the power source to be released from the fixing point in the ceiling. This makes Fondue easily adaptable to various architectural situations.
-            </p>
-          </div>
-          <figure class="project__gallery gallery">
-            <figcaption class="gallery__nav">
-              <button class="gallery__arrow btn-arrow btn-arrow--prev btn-reset" type="button">
-                <span class="hidden">previous picture</span>
-                <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
-              </button>
-              <a class="gallery__item gallery__item--active">
-                <img class="gallery__thumb" src="img/project-fondue-thumb-1.jpg" width="100" height="100" alt="lamp fragment-1">
-              </a>
-              <a class="gallery__item" href="#" title="zoom">
-                <img class="gallery__thumb" src="img/project-fondue-thumb-2.jpg" width="100" height="100" alt="lamp fragment-2">
-              </a>
-              <button class="gallery__arrow btn-arrow btn-arrow--next btn-reset" type="button">
-                <span class="hidden">next picture</span>
-                <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
-              </button>
-            </figcaption>
-            <img class="gallery__img" src="img/project-fondue.jpg" width="245" height="521" alt="Lamp Fondue">
-          </figure>
-          <ul class="social social--share list-reset">
-            <li class="social__item">
-              <a class="social__link" href="#" title="Share on facebook">
-                <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-facebook"></use></svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link" href="#" title="Share on twitter">
-                <svg class="social__icon" width="24" height="24"><use xlink:href="#icon-twitter"></use></svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link" href="#" title="Share on google+">
-                <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-google"></use></svg>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link" href="#" title="Share on email">
-                <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-email"></use></svg>
-              </a>
-            </li>
-          </ul>
+        <button class="project__close btn-close btn-reset" type="button">
+          <span class="hidden">Close project</span>
+        </button>
+        <h2 class="project__title">Fondue</h2>
+        <dl class="project__info">
+          <dt class="project__option">Project Assistant:</dt>
+          <dd class="project__value">Francesco Dompieri</dd>
+          <dt class="project__option">Material:</dt>
+          <dd class="project__value">Glass and Metal</dd>
+          <dt class="project__option">Typology:</dt>
+          <dd class="project__value">Suspension lamp</dd>
+          <dt class="project__option">Client:</dt>
+          <dd class="project__value">David Design</dd>
+          <dt class="project__option">Year:</dt>
+          <dd class="project__value">2014</dd>
+        </dl>
+        <div class="project__desc">
+          <p class="project__text">
+            Merging different traditions – the South European and the North European – in the field of household suspended lights is the starting point of Fondue, a lamp designed by Luca Nichetto for the Swedish David Design. The inspiration comes from the observation of pot bellied traditional fondue cauldrons, which were kept suspended above a heat source for the cheese to slowly melt. Similarly, the pot bellied glass diffuser is suspended, supported by a slender metal frame enclosing the light source.
+          </p>
+          <p class="project__text">
+            One of Fondue’s peculiarities is the solution designed for the output of the power cable, which is generally concealed or made less evident. Instead, here it becomes a feature of the lamp, located in its lower part, which allows the power source to be released from the fixing point in the ceiling. This makes Fondue easily adaptable to various architectural situations.
+          </p>
         </div>
+        <figure class="project__gallery gallery">
+          <figcaption class="gallery__nav">
+            <button class="gallery__arrow btn-arrow btn-arrow--prev btn-reset" type="button">
+              <span class="hidden">previous picture</span>
+              <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
+            </button>
+            <a class="gallery__item gallery__item--active">
+              <img class="gallery__thumb" src="img/project-fondue-thumb-1.jpg" width="100" height="100" alt="lamp fragment-1">
+            </a>
+            <a class="gallery__item" href="#" title="zoom">
+              <img class="gallery__thumb" src="img/project-fondue-thumb-2.jpg" width="100" height="100" alt="lamp fragment-2">
+            </a>
+            <button class="gallery__arrow btn-arrow btn-arrow--next btn-reset" type="button">
+              <span class="hidden">next picture</span>
+              <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
+            </button>
+          </figcaption>
+          <img class="gallery__img" src="img/project-fondue.jpg" width="245" height="521" alt="Lamp Fondue">
+        </figure>
+        <ul class="social social--share list-reset">
+          <li class="social__item">
+            <a class="social__link" href="#" title="Share on facebook">
+              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-facebook"></use></svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" title="Share on twitter">
+              <svg class="social__icon" width="24" height="24"><use xlink:href="#icon-twitter"></use></svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" title="Share on google+">
+              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-google"></use></svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#" title="Share on email">
+              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-email"></use></svg>
+            </a>
+          </li>
+        </ul>
       </article>
 
       <!-- ===== End POPUP ========================== -->
 
       <article class="project project--potter">
-        <div class="project__inner">
+        <div class="project__content">
           <h3 class="project__title">Potter</h3>
-          <dl class="project__info">
-            <dt class="project__option">For</dt>
-            <dd class="project__value">Stelton</dd>
-          </dl>
-          <p class="project__text">
-            Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed.
-          </p>
-          <a class="project__more" href="#">view project</a>
-          <button class="project__like like btn-reset" type="button">
-            <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
-            <span class="like__value">+ 200</span>
-          </button>
+          <div class="project__inner">
+            <p class="project__text">
+              <span class="project__info">
+                <b>For</b> Stelton
+              </span>
+              Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed.
+            </p>
+            <a class="project__more" href="#">view project</a>
+            <button class="project__like like btn-reset" type="button">
+              <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
+              <span class="like__value">+ 200</span>
+            </button>
+          </div>
         </div>
-        <img class="project__img" src="img/project-potter.jpg" width="209" height="226" alt="Potter">
+        <div class="project__img">
+          <img src="img/project-potter.jpg" width="209" height="226" alt="Potter">
+        </div>
       </article>
 
       <article class="project project--tabano">
-        <div class="project__inner">
+        <div class="project__content">
           <h3 class="project__title">Tabano</h3>
-          <dl class="project__info">
-            <dt class="project__option">Designer:</dt>
-            <dd class="project__value">Patricia Urquiola</dd>
-            <dt class="project__option">Typology:</dt>
-            <dd class="project__value">Armchairs</dd>
-            <dt class="project__option">Client:</dt>
-            <dd class="project__value">B&B Italia</dd>
-            <dt class="project__option">Year:</dt>
-            <dd class="project__value">2014</dd>
-          </dl>
-          <a class="project__more" href="#">view project</a>
-          <button class="project__like like btn-reset" type="button">
-            <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
-            <span class="like__value">+ 200</span>
-          </button>
+          <div class="project__inner project__inner--row">
+            <dl class="project__info">
+              <dt class="project__option">Designer:</dt>
+              <dd class="project__value">Patricia Urquiola</dd>
+              <dt class="project__option">Typology:</dt>
+              <dd class="project__value">Armchairs</dd>
+              <dt class="project__option">Client:</dt>
+              <dd class="project__value">B&B Italia</dd>
+              <dt class="project__option">Year:</dt>
+              <dd class="project__value">2014</dd>
+            </dl>
+            <a class="project__more" href="#">view project</a>
+            <button class="project__like like btn-reset" type="button">
+              <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
+              <span class="like__value">+ 200</span>
+            </button>
+          </div>
         </div>
-        <img class="project__img" src="img/project-tabano.jpg" width="263" height="309" alt="Armchair Tabano">
+        <div class="project__img">
+          <img src="img/project-tabano.jpg" width="263" height="309" alt="Armchair Tabano">
+        </div>
       </article>
 
       <article class="project project--louis">
-        <div class="project__inner">
+        <div class="project__content">
           <h3 class="project__title">Louis xx</h3>
-          <dl class="project__info">
-            <dt class="project__option">Designer:</dt>
-            <dd class="project__value">Philippe Starck</dd>
-            <dt class="project__option">Typology:</dt>
-            <dd class="project__value">Chairs</dd>
-            <dt class="project__option">Client:</dt>
-            <dd class="project__value">Vitra</dd>
-            <dt class="project__option">Year:</dt>
-            <dd class="project__value">2012</dd>
-          </dl>
-          <a class="project__more" href="#">view project</a>
-          <button class="project__like like btn-reset" type="button">
-            <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
-            <span class="like__value">+ 200</span>
-          </button>
+          <div class="project__inner">
+            <dl class="project__info">
+              <dt class="project__option">Designer:</dt>
+              <dd class="project__value">Philippe Starck</dd>
+              <dt class="project__option">Typology:</dt>
+              <dd class="project__value">Chairs</dd>
+              <dt class="project__option">Client:</dt>
+              <dd class="project__value">Vitra</dd>
+              <dt class="project__option">Year:</dt>
+              <dd class="project__value">2012</dd>
+            </dl>
+            <a class="project__more" href="#">view project</a>
+            <button class="project__like like btn-reset" type="button">
+              <svg class="like__icon like__icon--white" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
+              <span class="like__value">+ 200</span>
+            </button>
+          </div>
         </div>
-        <img class="project__img" src="img/project-louis.jpg" width="218" height="301" alt="Chair Louis xx">
+        <div class="project__img">
+          <img src="img/project-louis.jpg" width="218" height="301" alt="Chair Louis xx">
+        </div>
       </article>
 
       <article class="project project--395-396-P22">
-        <div class="project__inner">
+        <div class="project__content">
           <h3 class="project__title">395-396 P22</h3>
-          <div class="project__row">
+          <div class="project__inner project__inner--row">
             <dl class="project__info">
               <dt class="project__option">Designer:</dt>
               <dd class="project__value">Patrick Norguet</dd>
@@ -321,6 +335,32 @@
               <dt class="project__option">Year:</dt>
               <dd class="project__value">2013</dd>
             </dl>
+            <div class="project__column">
+              <a class="project__more" href="#">view project</a>
+              <button class="project__like like btn-reset" type="button">
+                <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
+                <span class="like__value">+ 200</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="project__img">
+          <img src="img/project-395-396-P22.jpg" width="410" height="332" alt="Armchair 395-396 P22">
+        </div>
+      </article>
+
+      <article class="project project--fiji">
+        <div class="project__content">
+          <h3 class="project__title">FIJI</h3>
+          <div class="project__inner">
+            <dl class="project__info">
+              <dt class="project__option">Designer:</dt>
+              <dd class="project__value">Cuno Frommherz</dd>
+              <dt class="project__option">Typology:</dt>
+              <dd class="project__value">Armchairs</dd>
+              <dt class="project__option">Year:</dt>
+              <dd class="project__value">2012</dd>
+            </dl>
             <a class="project__more" href="#">view project</a>
             <button class="project__like like btn-reset" type="button">
               <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
@@ -328,33 +368,15 @@
             </button>
           </div>
         </div>
-        <img class="project__img" src="img/project-395-396-P22.jpg" width="410" height="332" alt="Armchair 395-396 P22">
-      </article>
-
-      <article class="project project--fiji">
-        <div class="project__inner">
-          <h3 class="project__title">FIJI</h3>
-          <dl class="project__info">
-            <dt class="project__option">Designer:</dt>
-            <dd class="project__value">Cuno Frommherz</dd>
-            <dt class="project__option">Typology:</dt>
-            <dd class="project__value">Armchairs</dd>
-            <dt class="project__option">Year:</dt>
-            <dd class="project__value">2012</dd>
-          </dl>
-          <a class="project__more" href="#">view project</a>
-          <button class="project__like like btn-reset" type="button">
-            <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
-            <span class="like__value">+ 200</span>
-          </button>
+        <div class="project__img">
+          <img src="img/project-fiji.jpg" width="185" height="204" alt="Armchair Fiji">
         </div>
-        <img class="project__img" src="img/project-fiji.jpg" width="185" height="204" alt="Armchair Fiji">
       </article>
 
       <article class="project project--sesann">
-        <div class="project__inner">
+        <div class="project__content">
           <h3 class="project__title">Sesann</h3>
-          <div class="project__row">
+          <div class="project__inner project__inner--row">
             <dl class="project__info">
               <dt class="project__option">Designer:</dt>
               <dd class="project__value">Gianfranco Frattini</dd>
@@ -372,27 +394,33 @@
             </button>
           </div>
         </div>
-        <img class="project__img" src="img/project-sesann.jpg" width="467" height="156" alt="Armchair Sesann">
+        <div class="project__img">
+          <img src="img/project-sesann.jpg" width="467" height="156" alt="Armchair Sesann">
+        </div>
       </article>
 
       <article class="project project--alessi column-img-left">
-        <div class="project__inner">
+        <div class="project__content">
           <h3 class="project__title">Alessi</h3>
-          <dl class="project__info">
-            <dt class="project__option">Designer:</dt>
-            <dd class="project__value">Piero Lissoni</dd>
-            <dt class="project__option">Client:</dt>
-            <dd class="project__value">Alessi</dd>
-            <dt class="project__option">Year:</dt>
-            <dd class="project__value">2013</dd>
-          </dl>
-          <a class="project__more" href="#">view project</a>
-          <button class="project__like like btn-reset" type="button">
-            <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
-            <span class="like__value">+ 200</span>
-          </button>
+          <div class="project__inner">
+            <dl class="project__info">
+              <dt class="project__option">Designer:</dt>
+              <dd class="project__value">Piero Lissoni</dd>
+              <dt class="project__option">Client:</dt>
+              <dd class="project__value">Alessi</dd>
+              <dt class="project__option">Year:</dt>
+              <dd class="project__value">2013</dd>
+            </dl>
+            <a class="project__more" href="#">view project</a>
+            <button class="project__like like btn-reset" type="button">
+              <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
+              <span class="like__value">+ 200</span>
+            </button>
+          </div>
         </div>
-        <img class="project__img" src="img/project-alessi.jpg" width="147" height="201" alt="Alessi">
+        <div class="project__img">
+          <img src="img/project-alessi.jpg" width="147" height="201" alt="Alessi">
+        </div>
       </article>
 
       <footer class="page-section__foot">
@@ -422,150 +450,150 @@
         <h2 class="page-section__title">Studio</h2>
       </header>
       <div class="page-section__content">
-        <h3 class="hidden">About studio</h3>
-        <p class="studio__text">
-          <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</strong>
-        </p>
-        <p class="studio__text">
-          <strong>Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</strong>
-        </p>
-        <br>
-        <p class="studio__text">
-          Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat.
-        </p>
-        <p class="studio__text">
-          Vivamus eget laoreet enim. Sed nunc dui, egestas vel diam convallis, faucibus iaculis sapien. Sed ut vulputate nisi.
-        </p>
-        <p class="studio__text">
-          Proin tempor risus tellus. Maecenas sit amet fringilla urna, vel iaculis velit. Sed ac felis et sem mollis dictum sed id orci.
-        </p>
-        <img class="studio__img" src="img/studio.jpg" width="360" height="200" alt="the interior of our office">
-        <div class="studio__awards">
-          <h4 class="studio__subtitle">Awards</h4>
-          <ul class="studio__list list-reset">
-            <li class="studio__item">Aenean ullamcorper porta nisl</li>
-            <li class="studio__item">Ac lobortis elit</li>
-            <li class="studio__item">Commodo placerat</li>
-            <li class="studio__item">Vivamus</li>
-            <li class="studio__item">Aenean ullamcorper porta nisl</li>
-            <li class="studio__item">Ac lobortis elit</li>
-            <li class="studio__item">Commodo placerat</li>
-            <li class="studio__item">Vivamus</li>
-          </ul>
+        <div class="studio__column">
+          <h3 class="hidden">About studio</h3>
+          <p class="studio__text">
+            <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum.</strong>
+          </p>
+          <p class="studio__text">
+            <strong>Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</strong>
+          </p>
+          <br>
+          <p class="studio__text">
+            Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat.
+          </p>
+          <p class="studio__text">
+            Vivamus eget laoreet enim. Sed nunc dui, egestas vel diam convallis, faucibus iaculis sapien. Sed ut vulputate nisi.
+          </p>
+          <p class="studio__text">
+            Proin tempor risus tellus. Maecenas sit amet fringilla urna, vel iaculis velit. Sed ac felis et sem mollis dictum sed id orci.
+          </p>
         </div>
-        <section class="studio__stuff">
-          <h3 class="studio__subtitle studio__subtitle--small">Stuff</h3>
-          <p class="studio__text studio__text--small">
+        <div class="studio__column">
+          <img class="studio__img" src="img/studio.jpg" width="360" height="200" alt="the interior of our office">
+          <div class="studio__awards">
+            <h4 class="studio__subtitle">Awards</h4>
+            <ul class="studio__list list-reset">
+              <li class="studio__item">Aenean ullamcorper porta nisl</li>
+              <li class="studio__item">Ac lobortis elit</li>
+              <li class="studio__item">Commodo placerat</li>
+              <li class="studio__item">Vivamus</li>
+              <li class="studio__item">Aenean ullamcorper porta nisl</li>
+              <li class="studio__item">Ac lobortis elit</li>
+              <li class="studio__item">Commodo placerat</li>
+              <li class="studio__item">Vivamus</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class="studio__stuff stuff">
+        <div class="stuff__text-wrap">
+          <h3 class="stuff__title">Stuff</h3>
+          <p class="stuff__text">
             Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincidunt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus.
           </p>
-          <p class="studio__text studio__text--small">
+          <p class="stuff__text">
             Aenean diam tortor, hendrerit ac pulvinar vel, condimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut.
           </p>
-          <p class="studio__text studio__text--small">
+          <p class="stuff__text">
             Morbi sagittis diam mauris, in adipiscing nulla convallis ut.
           </p>
-          <div class="studio__grid">
-            <article class="studio__staffer staffer staffer--starck">
-              <p class="staffer__img-wrap">
-                <img class="staffer__img" src="img/stuff-starck.jpg" width="218" height="150" alt="portrait of Philippe Starck">
-              </p>
-              <h4 class="staffer__name">Philippe Starck</h4>
-              <span class="staffer__position">designer</span>
-              <div class="staffer__more">
-                <a class="staffer__cv" href="#">cv</a>
-                <ul class="social social--staffer list-reset">
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On facebook">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-facebook"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On twitter">
-                      <svg class="social__icon" width="14" height="14"><use xlink:href="#icon-twitter"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On linkedin">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-linkedin"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On google+">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-google"></use></svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </article>
+        </div>
+        <div class="stuff__grid">
+          <article class="stuff__item staffer staffer--starck">
+            <img class="staffer__img" src="img/stuffer-starck.jpg" width="270" height="150" alt="portrait of Philippe Starck">
+            <h4 class="staffer__name">Philippe Starck</h4>
+            <span class="staffer__position">designer</span>
+            <div class="staffer__more">
+              <a class="staffer__cv" href="#">cv</a>
+              <ul class="social social--staffer list-reset">
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On facebook">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-facebook"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On twitter">
+                    <svg class="social__icon" width="14" height="14"><use xlink:href="#icon-twitter"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On linkedin">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-linkedin"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On google+">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-google"></use></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
 
-            <article class="studio__staffer staffer staffer--bellini">
-              <p class="staffer__img-wrap">
-                <img class="staffer__img" src="img/stuff-bellini.jpg" width="162" height="150" alt="portrait of Mario Bellini">
-              </p>
-              <h4 class="staffer__name">Mario Bellini</h4>
-              <span class="staffer__position">designer</span>
-              <div class="staffer__more">
-                <a class="staffer__cv" href="#">cv</a>
-                <ul class="social social--staffer list-reset">
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On facebook">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-facebook"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On twitter">
-                      <svg class="social__icon" width="14" height="14"><use xlink:href="#icon-twitter"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On linkedin">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-linkedin"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On google+">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-google"></use></svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </article>
+          <article class="stuff__item staffer staffer--bellini">
+            <img class="staffer__img" src="img/stuffer-bellini.jpg" width="270" height="150" alt="portrait of Mario Bellini">
+            <h4 class="staffer__name">Mario Bellini</h4>
+            <span class="staffer__position">designer</span>
+            <div class="staffer__more">
+              <a class="staffer__cv" href="#">cv</a>
+              <ul class="social social--staffer list-reset">
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On facebook">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-facebook"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On twitter">
+                    <svg class="social__icon" width="14" height="14"><use xlink:href="#icon-twitter"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On linkedin">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-linkedin"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On google+">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-google"></use></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
 
-            <article class="studio__staffer staffer staffer--urquiola">
-              <p class="staffer__img-wrap">
-                <img class="staffer__img" src="img/stuff-urquiola.jpg" width="270" height="150" alt="portrait of Patricia Urquiola">
-              </p>
-              <h4 class="staffer__name">Patricia Urquiola</h4>
-              <span class="staffer__position">designer</span>
-              <div class="staffer__more">
-                <a class="staffer__cv" href="#">cv</a>
-                <ul class="social social--staffer list-reset">
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On facebook">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-facebook"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On twitter">
-                      <svg class="social__icon" width="14" height="14"><use xlink:href="#icon-twitter"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On linkedin">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-linkedin"></use></svg>
-                    </a>
-                  </li>
-                  <li class="social__item">
-                    <a class="social__link" href="#" title="On google+">
-                      <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-google"></use></svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </article>
-          </div>
-        </section>
-      </div>
+          <article class="stuff__item staffer staffer--urquiola">
+            <img class="staffer__img" src="img/stuffer-urquiola.jpg" width="270" height="150" alt="portrait of Patricia Urquiola">
+            <h4 class="staffer__name">Patricia Urquiola</h4>
+            <span class="staffer__position">designer</span>
+            <div class="staffer__more">
+              <a class="staffer__cv" href="#">cv</a>
+              <ul class="social social--staffer list-reset">
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On facebook">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-facebook"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On twitter">
+                    <svg class="social__icon" width="14" height="14"><use xlink:href="#icon-twitter"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On linkedin">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-linkedin"></use></svg>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#" title="On google+">
+                    <svg class="social__icon" width="12" height="12"><use xlink:href="#icon-google"></use></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
     </section>
 
     <section class="page-section news-feed" id="news">
@@ -605,10 +633,10 @@
   <footer class="page-footer">
     <div class="page-footer__map">
       <picture class="page-footer__map-img">
-        <source media="(min-width:1000px)" srcset="img/map-750px.jpg">
-        <img src="img/map-750px.jpg" alt="city map with our address">
+        <source media="(min-width:600px)" srcset="img/map-750px.jpg">
+        <img src="img/map-550px.jpg" alt="city map with our address">
       </picture>
-      <iframe src="https://yandex.ru/map-widget/v1/-/CBqXqDsMpD" width="752" height="644" allowfullscreen="true"></iframe>
+      <!--<iframe class="page-footer__map-iframe" src="https://yandex.ru/map-widget/v1/-/CBqXqDsMpD" width="" height="" allowfullscreen="true"></iframe>-->
     </div>
 
     <div class="page-footer__inner" id="contact">
@@ -659,6 +687,6 @@
   </footer>
 
 
-<script src="js/site-nav.js"></script>
+<script src="js/popup.js"></script>
 </body>
 </html>

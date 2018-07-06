@@ -1,210 +1,118 @@
-@media (min-width: 500px) {
+/* 450px
+====================================================================== */
+
+@media (min-width: 450px) {
 
   /* Site-nav
   ============================================================ */
 
   .site-nav__item {
     width: 50%;
-
-    text-align: center;
   }
 
   /* Page-section
   ============================================================ */
-/*
-  .page-section__content {
-    padding: 30px;
+
+  .page-section__head {
+    justify-content: center;
   }
 
-  .page-section__foot {
-    min-height: 200px;
-    padding: 35px;
-
-    background-color: #ebb240;
-    background-image: linear-gradient(to bottom right, transparent 49.6%, #fbf1dd, transparent 50%);
+  .projects .page-section__head {
+    justify-content: center;
   }
 
   .page-section__title {
-    margin: 30px 0 0;
-
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 1;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: right;
+    padding-top: 65px;
   }
-
-  .page-section__foot-title {
-    margin: 0 0 5px;
-    padding-left: 29px;
-
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 1;
-    color: #;
-    text-transform: uppercase;
-  }*/
 
   /* Projects
   ============================================================ */
-/*
+
   .projects {
-    position: relative;
-
-    background-color: #fefefe;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   }
-
-  .projects__menu-link {
-    padding-left: 29px;
-
-    font-size: 13px;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
-
-  .projects__menu-link--active,
-  .projects__menu-link:hover,
-  .projects__menu-link:focus {
-    color: #000000;
-
-    background: url("../img/icon-arrow-white.svg") 0 50% no-repeat;
-  } */
 
   /* Project
   ============================================================ */
 
   .project {
-    position: relative;
-
     display: flex;
-    height: 300px;
   }
 
   .project--louis {
-    background-image: linear-gradient(-90deg, #647682 40%, #576b76);
+    background-image: linear-gradient(-100deg, #7e848f, #647682 250px, #576b76);
   }
-/*
+
+  .project--395-396-P22,
+  .project--fiji,
+  .project--alessi {
+    flex-direction: row-reverse;
+  }
+
+  .project--sesann {
+    flex-direction: column-reverse;
+  }
+
   .project--popup {
-    position: fixed;
+    /*position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
     z-index: 1000;
-    overflow: auto;
+
+    display: block;
+    width: 100%;
+    min-height: 100%;*/
+    /*overflow-y: auto;*/
   }
-*/
+
   .project--closed {
     display: none;
   }
 
-  .project__inner {
-    position: relative;
-    z-index: 1;
+  .project__content {
+    width: 55%;
+  }
 
+  .project--fondue .project__content {
     width: 60%;
-    height: 100%;
   }
 
-  .project--395-396-P22 .project__inner,
-  .project--sesann .project__inner {
-    width: 90%;
-    /*margin: auto;*/
-    height: auto;
+  .project--395-396-P22 .project__content {
+    width: 50%;
   }
 
-  .project--395-396-P22 .project__inner,
-  .project--alessi .project__inner {
-    margin: 0 0 auto auto;
+  .project--popup .project__content,
+  .project--sesann .project__content {
+    width: 100%;
   }
 
-  .project--sesann .project__inner {
-    margin: auto auto 0;
-  }
-
-  .project__row {
-    display: flex;
-    justify-content: space-between;
+  .project--sesann .project__inner--row {
+    flex-direction: row;
     align-items: flex-start;
   }
 
-  .project__row .project__info {
-    width: 45%;
+  .project--sesann .project__inner--row > * {
+    margin-top: 0;
   }
 
   .project__img {
-    position: absolute;
-    right: 0;
-    bottom: 50%;
-    z-index: 0;
-
-    width: auto;
-    max-width: 40%;
-    max-height: 100%;
-
-    transform: translateY(50%);
+    width: 45%;
   }
 
-  .project--louis .project__img {
-    height: 100%;
-    max-width: auto;
-  }
-
-  .project--395-396-P22 .project__img,
-  .project--alessi .project__img {
-    left: 0;
-    right: auto;
+  .project--fondue .project__img {
+    width: 40%;
   }
 
   .project--395-396-P22 .project__img {
-    bottom: 0;
-
-    max-width: 55%;
-
-    transform: none;
+    width: 50%;
   }
 
-  .project--sesann  .project__img {
-    top: 0;
-    right: 50%;
+  .project--sesann .project__img {
+    width: 90%;
 
-    max-width: 90%;
-
-    transform: translateX(50%);
+    text-align: center;
   }
-
-/*
-  .project__gallery {
-    margin: 30px auto 0;
-  }
-*/
-  /* Gallery
-  ============================================================ */
-/*
-  .gallery__nav {
-    display: flex;
-    align-items: center;
-  }
-
-  .gallery__arrow:first-of-type {
-    margin-right: 15px;
-  }
-
-  .gallery__arrow:last-of-type {
-    margin-left: 15px;
-  }
-
-  .gallery__item:not(:first-of-type) {
-    margin-left: 10px;
-  }
-
-  .gallery__img {
-    display: block;
-    margin: 30px auto;
-  }
-*/
 
   /* Page-footer
   ============================================================ */
@@ -215,12 +123,174 @@
     justify-content: space-between;
   }
 
-  .page-footer__column {
+}
+
+
+
+/* 700px
+====================================================================== */
+
+@media (min-width: 700px) {
+
+  /* Page-header
+  ============================================================ */
+
+  .page-header {
+    display: flex;
+  }
+
+  .page-header__column-left,
+  .page-header__column-right {
+    width: 50%;
+  }
+
+  /* Site-nav
+  ============================================================ */
+
+  .site-nav__item {
+    width: 100%;
+  }
+
+  /* Page-section
+  ============================================================ */
+
+  .page-section__content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 30px;
+      margin: auto;
+      margin-left: 0;
+  }
+
+  /* Project
+  ============================================================ */
+
+  .project__content {
+    width: 55%;
+    padding-right: 0;
+  }
+
+  .project--395-396-P22 .project__content,
+  .project--fiji .project__content,
+  .project--alessi .project__content {
+    padding-right: 30px;
+    padding-left: 0;
+  }
+
+  .project--popup .project__content,
+  .project--sesann .project__content {
+    width: 100%;
+    padding: 30px;
+  }
+
+  /* Studio
+  ============================================================ */
+
+  .studio__img {
     margin-top: 0;
   }
 
-  .page-footer__copyright {
+  /* News
+  ============================================================ */
+
+  .news:not(:first-child) {
+    margin-top: 0;
+  }
+
+  /* Page-footer
+  ============================================================ */
+
+  .page-footer {
+    display: flex;
+  }
+
+  .page-footer__map,
+  .page-footer__inner {
+    width: 50%;
+  }
+
+}
+
+
+
+/* 1000px
+====================================================================== */
+
+@media (min-width: 1000px) {
+
+  /* Page-header
+  ============================================================ */
+
+  .page-header__column-left {
+    width: 66.6%;
+  }
+
+  .page-header__column-right {
+    width: 33.3%;
+  }
+
+  /* Page-section
+  ============================================================ */
+
+  .page-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .page-section__head {
+    width: 33.3%;
+  }
+
+  .projects .page-section__head {
+    width: auto;
+  }
+
+  .page-section__content {
+    width: 66.6%;
+  }
+
+  /* Projects
+  ============================================================ */
+
+  .projects {
+    display: grid;
+  }
+
+  .project--louis {
+    background-image: radial-gradient(ellipse 320px 250px at right 0 bottom 220px,#7a8694 33%,#72818d 50%,#667884, transparent),
+                      linear-gradient(-45deg,#63747d 50%,#576b76);
+  }
+
+  /* Stuff
+  ============================================================ */
+
+  .stuff {
+    display: flex;
     width: 100%;
+    padding: 30px 0;
+  }
+
+  .stuff__text-wrap {
+    width: 33.3%;
+    padding: 0 30px;
+  }
+
+  .stuff__grid {
+    justify-content: start;
+    width: 66.6%;
+    margin-top: 0;
+    padding-right: 30px;
+  }
+
+  .stuff__item {
+    margin-top: 0;
+  }
+
+  /* Page-footer
+  ============================================================ */
+
+  .page-footer__inner {
+    min-height: 430px;
   }
 
 }
