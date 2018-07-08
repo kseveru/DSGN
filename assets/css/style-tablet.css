@@ -40,6 +40,10 @@
     display: flex;
   }
 
+  .project--full {
+    display: block;
+  }
+
   .project--louis {
     background-image: linear-gradient(-100deg, #7e848f, #647682 250px, #576b76);
   }
@@ -54,24 +58,12 @@
     flex-direction: column-reverse;
   }
 
-  .project--popup {
-    /*position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1000;
-
-    display: block;
-    width: 100%;
-    min-height: 100%;*/
-    /*overflow-y: auto;*/
-  }
-
-  .project--closed {
-    display: none;
-  }
-
   .project__content {
     width: 55%;
+  }
+
+  .project--full .project__content {
+    width: 100%;
   }
 
   .project--fondue .project__content {
@@ -170,6 +162,10 @@
     padding-right: 0;
   }
 
+  .project--full .project__content {
+    position: relative;
+  }
+
   .project--395-396-P22 .project__content,
   .project--fiji .project__content,
   .project--alessi .project__content {
@@ -181,6 +177,38 @@
   .project--sesann .project__content {
     width: 100%;
     padding: 30px;
+  }
+
+  .project--full .project__title,
+  .project--full .project__inner {
+    width: 58.8%;
+    padding-right: 30px;
+  }
+
+  /* Gallery
+  ============================================================ */
+
+  .gallery__arrow:first-of-type {
+    margin-right: 25px;
+  }
+
+  .gallery__arrow:last-of-type {
+    margin-left: 25px;
+  }
+
+  .gallery__item:not(:first-of-type) {
+    margin-left: 30px;
+  }
+
+  .gallery__img {
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+
+    width: 41.2%;
+    margin: 0;
+
+    transform: translateY(50%);
   }
 
   /* Studio

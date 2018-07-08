@@ -141,8 +141,27 @@
                          "sesann sesann sesann alessi foot";
   }
 
+  /* Popup-project
+  ============================================================ */
+
+  .popup-project {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+
+    height: 100%;
+  }
+
   /* Project
   ============================================================ */
+
+  .project--full {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: calc(175px + 30px) 17.66%;
+  }
 
   .project--fondue {
     grid-area: fondue;
@@ -179,8 +198,18 @@
     grid-area: alessi;
   }
 
+  .project__close {
+    position: absolute;
+    top: 75px;
+    right: 17.66%;
+  }
+
   .project .project__content {
     width: 100%;
+  }
+
+  .project--full .project__content {
+    margin: 0;
   }
 
   .project--fondue .project__content {
@@ -227,6 +256,10 @@
 
   .project__inner--row > *:not(:first-child) {
     margin-top: 0;
+  }
+
+  .project--full .project__desc {
+    margin-top: 40px;
   }
 
   .project__column > *:first-child {
@@ -301,6 +334,14 @@
     right: auto;
 
     max-width: 49%;
+  }
+
+  .project__social {
+    margin-bottom: 0;
+  }
+
+  .project--full .project__gallery {
+    margin: 55px auto 85px;
   }
 
   /* Stuff
