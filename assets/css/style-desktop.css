@@ -11,6 +11,7 @@
   }
 
   .page-header__column-left {
+    display: block;
     width: 69%;
     padding: 50px 5% 50px 11%;
 
@@ -18,11 +19,25 @@
     background-position: right 15% top 100%;
   }
 
+  .page-header__social {
+    margin-top: 60px;
+  }
+
   .page-header__column-right {
+    position: relative;
+
     width: 31%;
-    padding: 50px;
+    padding: calc(50px + 120px) 50px 50px;
 
     background-image: linear-gradient(to bottom right,transparent 49.6%,#fbf1dd,transparent 50%);
+  }
+
+  .page-header__nav {
+    position: absolute;
+    top: 50px;
+    right: 50%;
+
+    margin-right: -62.5px;
   }
 
   .page-header__address {
@@ -38,30 +53,8 @@
     margin-top: 40px;
   }
 
-  .page-header__social {
-    margin-top: 60px;
-  }
-
   /* Site-nav
   ============================================================ */
-
-  .site-nav {
-    position: relative;
-    right: 50%;
-
-    margin-left: -200%;
-
-    transform: translateX(calc(50px + 30px / 2));
-  }
-
-  .site-nav--closed {
-    position: static;
-    right: auto;
-
-    margin: auto;
-
-    transform: none;
-  }
 
   .site-nav__list {
     flex-wrap: nowrap;
@@ -81,10 +74,6 @@
 
   .site-nav__link {
     padding: 53px;
-  }
-
-  .site-nav__toggle {
-    margin: calc(120px / 2 - 30px / 2) 43px;
   }
 
   /* Page-section
@@ -141,27 +130,8 @@
                          "sesann sesann sesann alessi foot";
   }
 
-  /* Popup-project
-  ============================================================ */
-
-  .popup-project {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1000;
-
-    height: 100%;
-  }
-
   /* Project
   ============================================================ */
-
-  .project--full {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: calc(175px + 30px) 17.66%;
-  }
 
   .project--fondue {
     grid-area: fondue;
@@ -198,18 +168,8 @@
     grid-area: alessi;
   }
 
-  .project__close {
-    position: absolute;
-    top: 75px;
-    right: 17.66%;
-  }
-
   .project .project__content {
     width: 100%;
-  }
-
-  .project--full .project__content {
-    margin: 0;
   }
 
   .project--fondue .project__content {
@@ -258,10 +218,6 @@
     margin-top: 0;
   }
 
-  .project--full .project__desc {
-    margin-top: 40px;
-  }
-
   .project__column > *:first-child {
     margin-top: 0;
   }
@@ -280,6 +236,8 @@
 
   .project--fondue .project__img {
     right: 5.3%;
+
+    text-align: right;
   }
 
   .project--potter .project__img {
@@ -336,12 +294,45 @@
     max-width: 49%;
   }
 
-  .project__social {
-    margin-bottom: 0;
+  /* Popup-project
+  ============================================================ */
+
+  .popup-project {
+    position: absolute;
+
+    height: 100%;
+  }
+
+  /* Project--full
+  ============================================================ */
+
+  .project--full {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: calc(175px + 30px) 17.66%;
+  }
+
+  .project__close {
+    position: absolute;
+    top: 75px;
+    right: 17.66%;
+  }
+
+  .project--full .project__content {
+    margin: 0;
+  }
+
+  .project--full .project__desc {
+    margin-top: 40px;
   }
 
   .project--full .project__gallery {
     margin: 55px auto 85px;
+  }
+
+  .project__social {
+    margin-bottom: 0;
   }
 
   /* Stuff
@@ -364,14 +355,19 @@
   /* Page-footer
   ============================================================ */
 
+  .page-footer {
+    /*padding-right: 30px;*/
+  }
+
   .page-footer__map {
     min-height: 644px;
   }
 
-  .page-footer__inner {
+  .page-footer__column {
     align-content: flex-end;
-    width: 39%;
-    padding: 0 0 55px 6.66%;
+    width: 50%;
+    max-width: 615px;
+    padding: 0 30px 55px 6.66%;
   }
 
   .page-footer__copyright {

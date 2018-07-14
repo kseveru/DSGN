@@ -40,10 +40,6 @@
     display: flex;
   }
 
-  .project--full {
-    display: block;
-  }
-
   .project--louis {
     background-image: linear-gradient(-100deg, #7e848f, #647682 250px, #576b76);
   }
@@ -60,10 +56,6 @@
 
   .project__content {
     width: 55%;
-  }
-
-  .project--full .project__content {
-    width: 100%;
   }
 
   .project--fondue .project__content {
@@ -106,13 +98,21 @@
     text-align: center;
   }
 
-  /* Page-footer
+  .project--395-396-P22 .project__img,
+  .project--fiji .project__img,
+  .project--alessi .project__img {
+    text-align: left;
+  }
+
+  /* Project--full
   ============================================================ */
 
-  .page-footer__inner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  .project--full {
+    display: block;
+  }
+
+  .project--full .project__content {
+    width: 100%;
   }
 
 }
@@ -162,10 +162,6 @@
     padding-right: 0;
   }
 
-  .project--full .project__content {
-    position: relative;
-  }
-
   .project--395-396-P22 .project__content,
   .project--fiji .project__content,
   .project--alessi .project__content {
@@ -173,10 +169,22 @@
     padding-left: 0;
   }
 
-  .project--popup .project__content,
   .project--sesann .project__content {
     width: 100%;
     padding: 30px;
+  }
+
+  /* Project--full
+  ============================================================ */
+
+  .project--full {
+    height: 100%;
+  }
+
+  .project--full .project__content {
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
   }
 
   .project--full .project__title,
@@ -206,9 +214,15 @@
     right: 0;
 
     width: 41.2%;
+    height: 100%;
     margin: 0;
 
     transform: translateY(50%);
+  }
+
+  .gallery__img img {
+    max-height: 100%;
+    width: auto;
   }
 
   /* Studio
@@ -233,7 +247,7 @@
   }
 
   .page-footer__map,
-  .page-footer__inner {
+  .page-footer__column {
     width: 50%;
   }
 
@@ -289,6 +303,17 @@
                       linear-gradient(-45deg,#63747d 50%,#576b76);
   }
 
+  /* Project--full
+  ============================================================ */
+
+  .project--full {
+    padding: 50px;
+  }
+
+  .project--full .project__content {
+    margin-bottom: 50px;
+  }
+
   /* Stuff
   ============================================================ */
 
@@ -317,7 +342,7 @@
   /* Page-footer
   ============================================================ */
 
-  .page-footer__inner {
+  .page-footer__column {
     min-height: 430px;
   }
 
