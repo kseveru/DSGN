@@ -50,6 +50,7 @@
     flex-direction: row-reverse;
   }
 
+  .project--tabano,
   .project--sesann {
     flex-direction: column-reverse;
   }
