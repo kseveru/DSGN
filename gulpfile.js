@@ -41,7 +41,7 @@ gulp.task('html', function() {
 gulp.task('style', function () {
   return gulp.src('assets/css/style.css', {base: './assets/'})
     .pipe(rigger())
-    .pipe(postcss([ autoprefixer() ]))
+    .pipe(postcss([ autoprefixer({grid: true}) ]))
     .pipe(cssmin())
     .pipe(gulp.dest('docs'));
 });
