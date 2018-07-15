@@ -3,10 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DSGN</title>
+  <title>DSGN Associates studio design</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style-tablet.css">
-  <link rel="stylesheet" href="css/style-desktop.css">
 </head>
 <body class="nojs">
 
@@ -34,10 +32,7 @@
     </symbol>
     <symbol viewBox="0 0 93 93" id="icon-linkedin" aria-labelledby="icon-linkedin" role="img">
       <title>Linkedin</title>
-      <path d="M11.185,0.08C5.004,0.08,0.001,5.092,0,11.259c0,6.173,5.003,11.184,11.186,11.184c6.166,0,11.176-5.011,11.176-11.184
-      C22.362,5.091,17.351,0.08,11.185,0.08z"/><rect x="1.538" y="30.926" width="19.287" height="62.054"/><path d="M69.925,29.383c-9.382,0-15.673,5.144-18.248,10.022h-0.258v-8.479H32.921H32.92v62.053h19.27V62.281
-      c0-8.093,1.541-15.932,11.575-15.932c9.89,0,10.022,9.256,10.022,16.451v30.178H93.06V58.942
-      C93.06,42.235,89.455,29.383,69.925,29.383z"/>
+      <path d="M11.185,0.08C5.004,0.08,0.001,5.092,0,11.259c0,6.173,5.003,11.184,11.186,11.184c6.166,0,11.176-5.011,11.176-11.184 C22.362,5.091,17.351,0.08,11.185,0.08z"/><rect x="1.538" y="30.926" width="19.287" height="62.054"/><path d="M69.925,29.383c-9.382,0-15.673,5.144-18.248,10.022h-0.258v-8.479H32.921H32.92v62.053h19.27V62.281 c0-8.093,1.541-15.932,11.575-15.932c9.89,0,10.022,9.256,10.022,16.451v30.178H93.06V58.942 C93.06,42.235,89.455,29.383,69.925,29.383z"/>
     </symbol>
     <symbol viewBox="0 0 96 96" id="icon-google" aria-labelledby="icon-google" role="img">
       <title>Google plus</title>
@@ -164,7 +159,8 @@
               <dd class="project__value">2014</dd>
             </dl>
             <a class="project__more" href="#project-fondue-full">view project</a>
-            <button class="project__like like btn-reset" type="button">
+            <button class="project__like like btn-reset" type="button" title="I like it">
+              <span class="hidden">I like it</span>
               <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
               <span class="like__value">+ 200</span>
             </button>
@@ -177,83 +173,9 @@
 
       <!-- ===== POPUP ========================== -->
 
-      <div id="project-fondue-full" class="popup-project">
-        <article class="project project--full">
-          <a class="project__close btn-close" href="#">
-            <span class="hidden">Close project</span>
-          </a>
-          <div class="project__content">
-            <h3 class="project__title">Fondue</h3>
-            <div class="project__inner">
-              <dl class="project__info">
-                <dt class="project__option">Project Assistant:</dt>
-                <dd class="project__value">Francesco Dompieri</dd>
-                <dt class="project__option">Material:</dt>
-                <dd class="project__value">Glass and Metal</dd>
-                <dt class="project__option">Typology:</dt>
-                <dd class="project__value">Suspension lamp</dd>
-                <dt class="project__option">Client:</dt>
-                <dd class="project__value">David Design</dd>
-                <dt class="project__option">Year:</dt>
-                <dd class="project__value">2014</dd>
-              </dl>
-              <div class="project__desc">
-                <p class="project__text">
-                  Merging different traditions – the South European and the North European – in the field of household suspended lights is the starting point of Fondue, a lamp designed by Luca Nichetto for the Swedish David Design. The inspiration comes from the observation of pot bellied traditional fondue cauldrons, which were kept suspended above a heat source for the cheese to slowly melt. Similarly, the pot bellied glass diffuser is suspended, supported by a slender metal frame enclosing the light source.
-                </p>
-                <p class="project__text">
-                  One of Fondue’s peculiarities is the solution designed for the output of the power cable, which is generally concealed or made less evident. Instead, here it becomes a feature of the lamp, located in its lower part, which allows the power source to be released from the fixing point in the ceiling. This makes Fondue easily adaptable to various architectural situations.
-                </p>
-              </div>
-              <figure class="project__gallery gallery">
-                <figcaption class="gallery__nav">
-                  <button class="gallery__arrow btn-arrow btn-arrow--prev btn-reset" type="button" disabled>
-                    <span class="hidden">previous picture</span>
-                    <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
-                  </button>
-                  <a class="gallery__item gallery__item--active">
-                    <img class="gallery__thumb" src="img/project-fondue-thumb-1.jpg" width="100" height="100" alt="lamp fragment-1">
-                  </a>
-                  <a class="gallery__item" href="#" title="zoom">
-                    <img class="gallery__thumb" src="img/project-fondue-thumb-2.jpg" width="100" height="100" alt="lamp fragment-2">
-                  </a>
-                  <button class="gallery__arrow btn-arrow btn-arrow--next btn-reset" type="button">
-                    <span class="hidden">next picture</span>
-                    <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
-                  </button>
-                </figcaption>
-                <div class="gallery__img">
-                  <img src="img/project-fondue-1.jpg" width="382" height="815" alt="Lamp Fondue">
-                </div>
-              </figure>
-              <ul class="project__social social social--share list-reset">
-                <li class="social__item">
-                  <a class="social__link" href="#" title="Share on facebook">
-                    <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-facebook"></use></svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a class="social__link" href="#" title="Share on twitter">
-                    <svg class="social__icon" width="24" height="24"><use xlink:href="#icon-twitter"></use></svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a class="social__link" href="#" title="Share on google+">
-                    <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-google"></use></svg>
-                  </a>
-                </li>
-                <li class="social__item">
-                  <a class="social__link" href="#" title="Share on email">
-                    <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-email"></use></svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </article>
-      </div>
+      //= project-fondue-full.html
 
-      <!-- ===== End POPUP ========================== -->
+      <!-- ===== End POPUP ====================== -->
 
       <article class="project project--potter">
         <div class="project__content">
@@ -266,7 +188,8 @@
               Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed.
             </p>
             <a class="project__more" href="#">view project</a>
-            <button class="project__like like btn-reset" type="button">
+            <button class="project__like like btn-reset" type="button" title="I like it">
+              <span class="hidden">I like it</span>
               <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
               <span class="like__value">+ 200</span>
             </button>
@@ -292,7 +215,8 @@
               <dd class="project__value">2014</dd>
             </dl>
             <a class="project__more" href="#">view project</a>
-            <button class="project__like like btn-reset" type="button">
+            <button class="project__like like btn-reset" type="button" title="I like it">
+              <span class="hidden">I like it</span>
               <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
               <span class="like__value">+ 200</span>
             </button>
@@ -318,8 +242,9 @@
               <dd class="project__value">2012</dd>
             </dl>
             <a class="project__more" href="#">view project</a>
-            <button class="project__like like btn-reset" type="button">
-              <svg class="like__icon like__icon--white" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
+            <button class="project__like like btn-reset" type="button" title="I like it">
+              <span class="hidden">I like it</span>
+              <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
               <span class="like__value">+ 200</span>
             </button>
           </div>
@@ -345,7 +270,8 @@
             </dl>
             <div class="project__column">
               <a class="project__more" href="#">view project</a>
-              <button class="project__like like btn-reset" type="button">
+              <button class="project__like like btn-reset" type="button" title="I like it">
+                <span class="hidden">I like it</span>
                 <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
                 <span class="like__value">+ 200</span>
               </button>
@@ -370,7 +296,8 @@
               <dd class="project__value">2012</dd>
             </dl>
             <a class="project__more" href="#">view project</a>
-            <button class="project__like like btn-reset" type="button">
+            <button class="project__like like btn-reset" type="button" title="I like it">
+              <span class="hidden">I like it</span>
               <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
               <span class="like__value">+ 200</span>
             </button>
@@ -396,7 +323,8 @@
               <dd class="project__value">1970</dd>
             </dl>
             <a class="project__more" href="#">view project</a>
-            <button class="project__like like btn-reset" type="button">
+            <button class="project__like like btn-reset" type="button" title="I like it">
+              <span class="hidden">I like it</span>
               <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
               <span class="like__value">+ 200</span>
             </button>
@@ -420,7 +348,8 @@
               <dd class="project__value">2013</dd>
             </dl>
             <a class="project__more" href="#">view project</a>
-            <button class="project__like like btn-reset" type="button">
+            <button class="project__like like btn-reset" type="button" title="I like it">
+              <span class="hidden">I like it</span>
               <svg class="like__icon" width="24" height="21"><use xlink:href="#icon-like"></use></svg>
               <span class="like__value">+ 200</span>
             </button>

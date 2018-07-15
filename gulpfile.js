@@ -3,6 +3,7 @@
 var gulp = require('gulp');
 var del = require('del');
 var htmlmin = require('gulp-htmlmin');
+var rigger = require('gulp-rigger');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var cssmin = require('gulp-csso');
@@ -31,13 +32,15 @@ gulp.task('image', function () {
 });
 
 gulp.task('html', function() {
-  return gulp.src('assets/*.html')
+  return gulp.src('assets/index.html')
+    .pipe(rigger())
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('docs'));
 });
 
 gulp.task('style', function () {
-  return gulp.src('assets/css/*.css', {base: './assets/'})
+  return gulp.src('assets/css/style.css', {base: './assets/'})
+    .pipe(rigger())
     .pipe(postcss([ autoprefixer() ]))
     .pipe(cssmin())
     .pipe(gulp.dest('docs'));
