@@ -7,6 +7,7 @@ var rigger = require('gulp-rigger');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 var cssmin = require('gulp-csso');
+var purgecss = require('gulp-purgecss');
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 var imagemin = require('gulp-imagemin');
@@ -41,6 +42,7 @@ gulp.task('html', function() {
 gulp.task('style', function () {
   return gulp.src('assets/css/style.css', {base: './assets/'})
     .pipe(rigger())
+    .pipe(purgecss({content: ['assets/*.html']}))
     .pipe(postcss([ autoprefixer() ]))
     .pipe(cssmin())
     .pipe(gulp.dest('docs'));

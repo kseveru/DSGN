@@ -741,7 +741,7 @@ img {
   background-color: #ffffff;
 }
 
-#project-fondue-full:target {
+.popup-project:target {
   display: block;
 }
 
