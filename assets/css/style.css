@@ -178,10 +178,6 @@ img {
 /* Btn-toggle
 ============================================================ */
 
-.nojs .btn-toggle {
-  display: none;
-}
-
 .btn-toggle {
   display: flex;
   flex-direction: column;
@@ -189,6 +185,10 @@ img {
   align-items: center;
   width: 125px;
   height: 120px;
+}
+
+.nojs .btn-toggle {
+  display: none;
 }
 
 .btn-toggle::before,
@@ -587,6 +587,7 @@ img {
 }
 
 .project--louis {
+  background-color: #576b76;
   background-image: radial-gradient(ellipse 290px 200px at right 0 bottom 220px,#7a8694 33%,#72818d 50%,#667884,transparent),
                     linear-gradient(-45deg,#63747d 50%,#576b76);
 }
