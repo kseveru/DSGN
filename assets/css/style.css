@@ -387,6 +387,7 @@ img {
 .social__link {
   display: block;
 
+  width: 100%;
   height: 100%;
 }
 
@@ -1091,6 +1092,36 @@ img {
 .page-footer__link {
   text-decoration: none;
   color: inherit;
+}
+
+/* Internet Explorer
+====================================================================== */
+
+@media (-ms-high-contrast: active),
+       (-ms-high-contrast: none) {
+
+  /* Stuff
+  ============================================================ */
+
+  .stuff__grid {
+    display: grid;
+    grid-template-columns: 270px;
+    grid-template-rows: auto 30px auto 30px auto;
+  }
+
+  .stuff__grid >*:nth-child(2) {
+    grid-row: 3;
+  }
+
+  .stuff__grid >*:nth-child(3) {
+    grid-row: 5;
+  }
+
+  .stuff__item {
+    grid-column-align: center;
+    max-width: 270px;
+  }
+
 }
 
 

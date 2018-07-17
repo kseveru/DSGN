@@ -36,6 +36,7 @@
     position: absolute;
     top: 50px;
     right: 50%;
+    z-index: 1000;
 
     margin-right: -62.5px;
   }
@@ -143,6 +144,7 @@
 
   .project--tabano {
     grid-area: tabano;
+    flex-direction: column-reverse;
   }
 
   .project--louis {
@@ -349,6 +351,8 @@
 
   .stuff__grid {
     width: 69%;
+    max-width: 870px;
+    margin-right: auto;
   }
 
   /* Page-footer
@@ -367,6 +371,26 @@
 
   .page-footer__copyright {
     margin: 80px 0 0;
+  }
+
+}
+
+/* Internet Explorer
+====================================================================== */
+
+@media (min-width: 1200px) and (-ms-high-contrast: active),
+       (min-width: 1200px) and (-ms-high-contrast: none) {
+
+  .page-header {
+    position: relative;
+  }
+
+  .page-header__column-right {
+    position: static;
+  }
+
+  .page-header__nav {
+    right: 15.5%;
   }
 
 }
