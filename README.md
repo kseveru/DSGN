@@ -6,4 +6,5 @@
 
 Макет:  [Michele Cialone](http://theuncreativelab.com/ "Автор дизайна")
 
-[![Alt text](//placehold.it/150x100)](http://example.com/)
+
+<img src="https://kseveru.github.io/img/preview-dsgn-small.png">
