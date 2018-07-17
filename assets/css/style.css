@@ -175,6 +175,28 @@ img {
   cursor: default;
 }
 
+/* Skip-link
+============================================================ */
+
+.skip-link:focus {
+  left: 0;
+  top: 0;
+
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 20px;
+
+  clip-path: none;
+  clip: auto;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #333333;
+}
+
 /* Btn-toggle
 ============================================================ */
 

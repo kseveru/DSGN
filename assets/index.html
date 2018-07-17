@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="nojs">
+  <a href="#main-content" class="skip-link hidden">Skip to content</a>
 
 <!-- ===== SVG sprite ===================== -->
 
@@ -73,11 +74,11 @@
     </div>
 
     <div class="page-header__column-right">
-      <nav class="page-header__nav site-nav">
-        <button class="site-nav__toggle btn-toggle btn-toggle--closed btn-reset" type="button" aria-haspopup="true">
+      <nav class="page-header__nav site-nav" aria-haspopup="true">
+        <button class="site-nav__toggle btn-toggle btn-toggle--closed btn-reset" type="button" aria-controls="site-nav-list">
           <span class="hidden">Open/close menu</span>
         </button>
-        <ul class="site-nav__list list-reset">
+        <ul class="site-nav__list list-reset" id="site-nav-list">
           <li class="site-nav__item">
             <a class="site-nav__link site-nav__link--active">Home</a>
           </li>
@@ -111,7 +112,7 @@
 
 <!-- ===== CONTENT ======================== -->
 
-  <main class="page-content">
+  <main class="page-content" id="main-content">
     <h1 class="hidden">Associates studio design</h1>
 
     <section class="page-section projects" id="projects">
