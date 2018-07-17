@@ -27,10 +27,9 @@
           </p>
         </div>
         <figure class="project__gallery gallery">
-          <figcaption class="gallery__nav">
-            <button class="gallery__arrow btn-arrow btn-arrow--prev btn-reset" type="button" disabled>
-              <span class="hidden">previous picture</span>
-              <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
+          <figcaption class="gallery__nav" id="gallery-nav">
+            <button class="gallery__arrow btn-arrow btn-arrow--prev btn-reset" type="button" aria-controls="gallery-nav" disabled>
+              <svg width="26" height="61" aria-label="previous picture"><use xlink:href="#icon-arrow-button"></use></svg>
             </button>
             <a class="gallery__item gallery__item--active">
               <img class="gallery__thumb" src="img/project-fondue-thumb-1.jpg" width="100" height="100" alt="lamp fragment-1">
@@ -38,34 +37,33 @@
             <a class="gallery__item" href="#" title="zoom">
               <img class="gallery__thumb" src="img/project-fondue-thumb-2.jpg" width="100" height="100" alt="lamp fragment-2">
             </a>
-            <button class="gallery__arrow btn-arrow btn-arrow--next btn-reset" type="button">
-              <span class="hidden">next picture</span>
-              <svg width="26" height="61"><use xlink:href="#icon-arrow-button"></use></svg>
+            <button class="gallery__arrow btn-arrow btn-arrow--next btn-reset" type="button" aria-controls="gallery-nav">
+              <svg width="26" height="61" aria-label="next picture"><use xlink:href="#icon-arrow-button"></use></svg>
             </button>
           </figcaption>
           <div class="gallery__img">
-            <img src="img/project-fondue-full-1.jpg" width="382" height="815" alt="Lamp Fondue">
+            <img src="img/project-fondue-full-1.jpg" width="382" height="815" alt="Lamp Fondue, full view">
           </div>
         </figure>
         <ul class="project__social social social--share list-reset">
           <li class="social__item">
             <a class="social__link" href="#" title="Share on facebook">
-              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-facebook"></use></svg>
+              <svg class="social__icon" width="22" height="22" aria-label="Share on facebook"><use xlink:href="#icon-facebook"></use></svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="#" title="Share on twitter">
-              <svg class="social__icon" width="24" height="24"><use xlink:href="#icon-twitter"></use></svg>
+              <svg class="social__icon" width="24" height="24" aria-label="Share on twitter"><use xlink:href="#icon-twitter"></use></svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="#" title="Share on google+">
-              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-google"></use></svg>
+              <svg class="social__icon" width="22" height="22" aria-label="Share on google+"><use xlink:href="#icon-google"></use></svg>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="#" title="Share on email">
-              <svg class="social__icon" width="22" height="22"><use xlink:href="#icon-email"></use></svg>
+              <svg class="social__icon" width="22" height="22" aria-label="Share on email"><use xlink:href="#icon-email"></use></svg>
             </a>
           </li>
         </ul>
