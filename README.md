@@ -1,7 +1,9 @@
 # DSGN
 
+ [kseveru.github.io/DSGN](https://kseveru.github.io/DSGN/ "Открыть проект")
+***
 Резиновая вёрстка (1 страница)
 
-https://kseveru.github.io/DSGN/
+Макет:  [Michele Cialone](http://theuncreativelab.com/ "Автор дизайна")
 
-Макет: Michele Cialone (http://theuncreativelab.com/)
+[![Alt text](//placehold.it/150x100)](http://example.com/)
