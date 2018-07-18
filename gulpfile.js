@@ -32,7 +32,7 @@ gulp.task('image', function () {
 });
 
 gulp.task('html', function() {
-  return gulp.src('assets/index.html')
+  return gulp.src('assets/**/*.html')
     .pipe(rigger())
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('docs'));

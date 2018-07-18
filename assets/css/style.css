@@ -757,7 +757,6 @@ img {
   top: 0;
   z-index: 1000;
 
-  display: none;
   width: 100%;
   height: 100vh;
   overflow-y: auto;
@@ -765,8 +764,8 @@ img {
   background-color: #ffffff;
 }
 
-.popup-project:target {
-  display: block;
+.popup-project--closed {
+  display: none;
 }
 
 /* Project--full
@@ -784,7 +783,7 @@ img {
 .project--full .project__content {
   justify-content: center;
   padding: 0;
-  margin: 30px 0;
+  margin: 30px 0 0;
 }
 
 .project--full .project__title {

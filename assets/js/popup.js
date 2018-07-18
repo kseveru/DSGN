@@ -1,11 +1,10 @@
 var bodyToggle = document.querySelector(".nojs");
 var btnToggle = document.querySelector(".btn-toggle");
 var navCatalog = document.querySelector(".site-nav");
-/*
-var projectMoreFondue = document.querySelector(".project__more--fondue");
-var projectFondue = document.querySelector(".project--full-fondue");
+
+var projectOpenFondue = document.querySelector(".project__more--fondue");
+var projectFondue = document.getElementById("project-fondue-full");
 var projectClose = document.querySelector(".project__close");
-*/
 
 bodyToggle.classList.remove("nojs");
 navCatalog.classList.add("site-nav--closed");
@@ -16,14 +15,12 @@ btnToggle.addEventListener("click", function (evt) {
   navCatalog.classList.toggle("site-nav--closed");
 });
 
-/*
-projectMoreFondue.addEventListener("click", function (evt) {
+projectOpenFondue.addEventListener("click", function (evt) {
   evt.preventDefault();
-  projectFondue.classList.toggle("project--closed");
+  projectFondue.classList.toggle("popup-project--closed");
 });
 
 projectClose.addEventListener("click", function (evt) {
   evt.preventDefault();
-  projectFondue.classList.toggle("project--closed");
+  projectFondue.classList.toggle("popup-project--closed");
 });
-*/
