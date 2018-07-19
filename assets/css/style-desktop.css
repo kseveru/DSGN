@@ -13,7 +13,7 @@
   .page-header__column-left {
     display: block;
     width: 69%;
-    padding: 50px 5% 50px 11%;
+    padding: 50px 5% 50px 11.3%;
 
     background-size: auto;
     background-position: right 15% top 100%;
@@ -65,16 +65,16 @@
       width: auto;
   }
 
+  .site-nav__link {
+    padding: 53px 30px;
+  }
+
   .site-nav__item:first-child .site-nav__link {
     padding-left: 50px;
   }
 
   .site-nav__item:last-child .site-nav__link {
     padding-right: 50px;
-  }
-
-  .site-nav__link {
-    padding: 53px;
   }
 
   /* Page-section
@@ -311,13 +311,14 @@
     display: flex;
     align-items: center;
     height: 100%;
-    padding: calc(175px + 30px) 17.66%;
+    padding: calc(200px + 30px) 16.66%;
+    padding-left: 17.66%;
   }
 
   .project__close {
     position: absolute;
     top: 75px;
-    right: 17.66%;
+    right: 13%;
   }
 
   .project--full .project__content {
