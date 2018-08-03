@@ -2,9 +2,9 @@
 
 [kseveru.github.io/DSGN](https://kseveru.github.io/DSGN/ "Открыть проект")
 
-**Верстка**: резиновая
-**Страниц**: 1
-**Макет**: [Michele Cialone](http://theuncreativelab.com/ "Автор дизайна")
+**Верстка**: резиновая  
+**Страниц**: 1  
+**Макет**: [Michele Cialone](http://theuncreativelab.com/ "Автор дизайна")  
 <table>
   <tr>
     <td>Главная страница</td>
