@@ -48,8 +48,8 @@
   font-style: normal;
   font-display: swap;
   src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'),
-  url('RobotoCondensedLight.woff2') format('woff2'),
-  url('RobotoCondensedLight.woff') format('woff');
+      url('../fonts/RobotoCondensedLight.woff2') format('woff2'),
+      url('../fonts/RobotoCondensedLight.woff') format('woff');
 }
 @font-face {
   font-family: 'Roboto Condensed';
@@ -57,8 +57,8 @@
   font-style: italic;
   font-display: swap;
   src: local('Roboto Condensed Light Italic'), local('RobotoCondensed-LightItalic'),
-  url('RobotoCondensedLightItalic.woff2') format('woff2'),
-  url('RobotoCondensedLightItalic.woff') format('woff');
+      url('../fonts/RobotoCondensedLightItalic.woff2') format('woff2'),
+      url('../fonts/RobotoCondensedLightItalic.woff') format('woff');
 }
 @font-face {
   font-family: 'Roboto Condensed';
@@ -66,8 +66,8 @@
   font-style: normal;
   font-display: swap;
   src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
-  url('RobotoCondensed.woff2') format('woff2'),
-  url('RobotoCondensed.woff') format('woff');
+      url('../fonts/RobotoCondensed.woff2') format('woff2'),
+      url('../fonts/RobotoCondensed.woff') format('woff');
 }
 @font-face {
   font-family: 'Roboto Condensed';
@@ -75,8 +75,8 @@
   font-style: italic;
   font-display: swap;
   src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'),
-  url('RobotoCondensedItalic.woff2') format('woff2'),
-  url('RobotoCondensedItalic.woff') format('woff');
+      url('../fonts/RobotoCondensedItalic.woff2') format('woff2'),
+      url('../fonts/RobotoCondensedItalic.woff') format('woff');
 }
 @font-face {
   font-family: 'Roboto Condensed';
@@ -84,8 +84,8 @@
   font-style: normal;
   font-display: swap;
   src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'),
-  url('RobotoCondensedBold.woff2') format('woff2'),
-  url('RobotoCondensedBold.woff') format('woff');
+      url('../fonts/RobotoCondensedBold.woff2') format('woff2'),
+      url('../fonts/RobotoCondensedBold.woff') format('woff');
 }
 @font-face {
   font-family: 'Roboto Condensed';
@@ -93,8 +93,8 @@
   font-style: italic;
   font-display: swap;
   src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'),
-  url('RobotoCondensedBoldItalic.woff2') format('woff2'),
-  url('RobotoCondensedBoldItalic.woff') format('woff');
+      url('../fonts/RobotoCondensedBoldItalic.woff2') format('woff2'),
+      url('../fonts/RobotoCondensedBoldItalic.woff') format('woff');
 }
 
 /* GLOBAL
