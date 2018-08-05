@@ -8,8 +8,7 @@
 <table>
   <tr>
     <td>Главная страница</td>
-    <td>Главная страница с описанием проекта  
-      ["Fondue - view project"]</td>
+    <td>Главная страница с описанием проекта <br>["Fondue - view project"]</td>
   </tr>
   <tr>
     <td>
