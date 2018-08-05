@@ -8,17 +8,17 @@
 <table>
   <tr>
     <td>Главная страница</td>
-    <td>Главная страница с описанием проекта</td>
+    <td>Главная страница с описанием проекта ["Fondue - view project"]</td>
   </tr>
   <tr>
     <td>
       <a href="https://kseveru.github.io/img/preview-dsgn.jpg" title="Открыть макет">
-        <img src="https://kseveru.github.io/img/preview-dsgn-small.png">
+        <img src="https://kseveru.github.io/img/preview-dsgn-small.png" alt="макет настольной версии">
       </a>
     </td>
     <td>
       <a href="https://kseveru.github.io/img/preview-dsgn-popup.jpg" title="Открыть макет">
-        <img src="https://kseveru.github.io/img/preview-dsgn-popup-small.png">
+        <img src="https://kseveru.github.io/img/preview-dsgn-popup-small.png" alt="макет с всплывающим окном">
       </a>
     </td>
   </tr>
